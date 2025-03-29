@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 215px;
+            border: 2px solid black;
+            background-color: yellow;
+        }
+        .box{
+            height: 212px;
+            width: 212px;
+            border: 2px solid red;
+            background-color: aqua;
+            animation-name: om;
+            animation-duration: 5s;
+            animation-iteration-count: 4;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+        }
+    @keyframes om{
+        from{
+            width: 212px;
+        }
+        to{
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

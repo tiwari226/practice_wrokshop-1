@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 1000px;
+            background-color: yellowgreen;
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    column-gap: 250px;
+
+        }
+        .box{
+        height: 100px;
+        width: 100px;
+         background-color: aqua;
+        border: 1px solid black;
+        margin: 30px;
+        margin-top: 29px;
+        text-align:center;     
+        }
+        .box:hover{
+            transform: scale(1.5);
+            background-color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    <div class="box">JAI SHREE RAM!</div>
+    </div> 
+</body>
+</html>

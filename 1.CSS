@@ -1,0 +1,8 @@
+.Om{
+    margin: 100px;
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(red,rgb(85, 226, 85));
+    background-image: radial-gradient(orange ,white,green);
+}
