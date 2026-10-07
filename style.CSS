@@ -1,0 +1,71 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: aqua;
+    text-align: center;
+    background-color: #dc6565;
+    padding: 15px;
+}
+
+/* Student image */
+img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+/* Student name */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Section headings */
+h3 {
+    color: #0077cc;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Lists */
+ul,
+ol {
+    line-height: 1.8;
+}
+
+/* YouTube link container */
+div {
+    width: 250px;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Link */
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Link hover */
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
